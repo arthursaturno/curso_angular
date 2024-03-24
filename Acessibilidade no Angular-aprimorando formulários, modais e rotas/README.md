@@ -6,17 +6,23 @@ Adicionar títulos descritivos a cada página da aplicação para melhorar a exp
 Utilizar a diretiva RouterLinkActive para destacar visualmente os links ativos, proporcionando uma navegação mais clara e compreensível;
 Aprimorar a acessibilidade com o uso de ariaCurrentWhenActive, para uma identificação eficaz de elementos ativos;
 Implementar foco automático em elementos, utilizando as ferramentas do Angular, como @ViewChild e ElementRef, para aprimorar a usabilidade da aplicação.
+
 2. Exploração dos Atributos Aria:  
 Utilizar o atributo aria-label para fornecer descrições acessíveis a elementos, melhorando a experiência para pessoas usuárias de tecnologias assistivas;
 Empregar a sintaxe [attr.aria-label] no Angular para vincular dinamicamente descrições acessíveis aos elementos, personalizando informações específicas da aplicação;
 Entender o papel do atributo role na identificação semântica de elementos, utilizando valores comuns como "radiogroup", "alert" e "region".
+
 3.Acessibilidade em formulários: Utilizar [attr.aria-invalid] para oferecer feedback claro sobre a validade dos campos em formulários;
 Integrar o atributo aria-describedby para vincular descrições extras de mensagens de erro a campos específicos;
 Incorporar o atributo aria-disabled em botões para fornecer informações explícitas sobre o estado de desabilitação.
+
 4. Acessibilidade em modais: Utilizar a diretiva cdkTrapFocus do Angular CDK para melhorar o gerenciamento do foco em modais, evitando que o foco saia do conteúdo do modal ao navegar por teclado;
 Implementar a captura automática do foco ao abrir modais, direcionando imediatamente o foco para o conteúdo relevante usando cdkTrapFocusAutoCapture;
 Tornar o fechamento do modal acessível, detectando o pressionamento da tecla "Esc" através do @HostListener;
 Utilizar as classes Renderer2 e ElementRef para manipulação segura do DOM, ocultando o scroll da página de fundo ao abrir modais.
+
+5. Fornecendo feedback auditivo: Utilizar o LiveAnnouncer, uma ferramenta do Angular CDK, para proporcionar feedback auditivo em tempo real em resposta a eventos dinâmicos na página, como a submissão de formulários;
+Integrar o LiveAnnouncer ao seu código Angular para anunciar mensagens importantes de forma auditiva, melhorando a acessibilidade para pessoas usuárias com deficiências visuais.
 
 
 # Buscante
