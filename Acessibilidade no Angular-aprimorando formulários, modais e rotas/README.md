@@ -10,6 +10,10 @@ Implementar foco automático em elementos, utilizando as ferramentas do Angular,
 Utilizar o atributo aria-label para fornecer descrições acessíveis a elementos, melhorando a experiência para pessoas usuárias de tecnologias assistivas;
 Empregar a sintaxe [attr.aria-label] no Angular para vincular dinamicamente descrições acessíveis aos elementos, personalizando informações específicas da aplicação;
 Entender o papel do atributo role na identificação semântica de elementos, utilizando valores comuns como "radiogroup", "alert" e "region".
+3.Acessibilidade em formulários: Utilizar [attr.aria-invalid] para oferecer feedback claro sobre a validade dos campos em formulários;
+Integrar o atributo aria-describedby para vincular descrições extras de mensagens de erro a campos específicos;
+Incorporar o atributo aria-disabled em botões para fornecer informações explícitas sobre o estado de desabilitação.
+
 
 # Buscante
 
