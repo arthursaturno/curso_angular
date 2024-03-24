@@ -13,6 +13,10 @@ Entender o papel do atributo role na identificação semântica de elementos, ut
 3.Acessibilidade em formulários: Utilizar [attr.aria-invalid] para oferecer feedback claro sobre a validade dos campos em formulários;
 Integrar o atributo aria-describedby para vincular descrições extras de mensagens de erro a campos específicos;
 Incorporar o atributo aria-disabled em botões para fornecer informações explícitas sobre o estado de desabilitação.
+4. Acessibilidade em modais: Utilizar a diretiva cdkTrapFocus do Angular CDK para melhorar o gerenciamento do foco em modais, evitando que o foco saia do conteúdo do modal ao navegar por teclado;
+Implementar a captura automática do foco ao abrir modais, direcionando imediatamente o foco para o conteúdo relevante usando cdkTrapFocusAutoCapture;
+Tornar o fechamento do modal acessível, detectando o pressionamento da tecla "Esc" através do @HostListener;
+Utilizar as classes Renderer2 e ElementRef para manipulação segura do DOM, ocultando o scroll da página de fundo ao abrir modais.
 
 
 # Buscante
