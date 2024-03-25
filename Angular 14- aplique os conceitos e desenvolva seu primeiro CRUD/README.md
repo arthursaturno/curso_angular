@@ -18,6 +18,12 @@
    Criar e configurar rotas;
    Navegar por meio da propriedade routerLink.
 
+4. Diretivas: Tipos diferentes de diretivas;
+   Utilizar diretivas estruturais incluindo e excluindo elementos com ngFor e ngIf;
+   Utilizar expressões para estilizar elementos com ngClass.
+
+5. Comucação com o backend:
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Development server
