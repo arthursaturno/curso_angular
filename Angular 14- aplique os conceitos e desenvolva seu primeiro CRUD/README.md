@@ -22,7 +22,12 @@
    Utilizar diretivas estruturais incluindo e excluindo elementos com ngFor e ngIf;
    Utilizar expressões para estilizar elementos com ngClass.
 
-5. Comucação com o backend:
+5. Comucação com o backend: Utilizar o JSON-Server simulando uma API REST;
+   Criar uma interface para definir tipos personalizados;
+   Entender a importância do Service e o novo decorator @Injectable();
+   Injetar dependências.
+
+6. Requisições Http:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
