@@ -13,6 +13,11 @@
    Usar a diretiva ngModel que pertence ao FormsModule para a comunicação bidirecional entre component e template;
    Como funcionam os diferentes tipos de comunicação entre component e template.
 
+3. Navegação com roteamento: Utilizar o RouterModule;
+   Utilizar a diretiva router-outlet;
+   Criar e configurar rotas;
+   Navegar por meio da propriedade routerLink.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Development server
