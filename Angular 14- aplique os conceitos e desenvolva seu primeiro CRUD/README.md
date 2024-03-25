@@ -27,7 +27,10 @@
    Entender a importância do Service e o novo decorator @Injectable();
    Injetar dependências.
 
-6. Requisições Http:
+6. Requisições Http: Utilizar métodos de requisição HTTP com serviço HttpClient;
+   Utilizar o Observable no retorno dos métodos HTTP;
+   Capturar parâmetros em rotas;
+   Criar um CRUD.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
