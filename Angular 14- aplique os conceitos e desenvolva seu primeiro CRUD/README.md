@@ -2,7 +2,16 @@
 
 # Apredizados
 
-1. Conhencendo o Angular: instalar e utilizar o Angular CLI, criar uma aplicação Angular, estrutura da aplicação gerada pelo Angular CLI, criar e utilizar um componente Angular e inserimos a fonte, as cores e estilos.
+1. Conhencendo o Angular: Instalar e utilizar o Angular CLI;
+   criar uma aplicação Angular; Estrutura da aplicação gerada pelo Angular CLI;
+   criar e utilizar um componente Angular e inserimos a fonte, as cores e estilos.
+
+2. Entendendo o fluxo de dados: Criar componente de formulário para adicionar novos pensamentos;
+   Passar valores de uma propriedade do component para atributos de tag dentro do template com o uso de property binding;
+   Mostrar valores de propriedades do component no template por meio da interpolação;
+   Escutar eventos do template e fazer a chamada de métodos no component com o event binding;
+   Usar a diretiva ngModel que pertence ao FormsModule para a comunicação bidirecional entre component e template;
+   Como funcionam os diferentes tipos de comunicação entre component e template.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
