@@ -22,7 +22,7 @@
    Utilizar diretivas estruturais incluindo e excluindo elementos com ngFor e ngIf;
    Utilizar expressões para estilizar elementos com ngClass.
 
-5. Comucação com o backend: Utilizar o JSON-Server simulando uma API REST;
+5. Comunicação com o backend: Utilizar o JSON-Server simulando uma API REST;
    Criar uma interface para definir tipos personalizados;
    Entender a importância do Service e o novo decorator @Injectable();
    Injetar dependências.
