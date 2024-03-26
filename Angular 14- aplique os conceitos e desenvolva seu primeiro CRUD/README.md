@@ -42,6 +42,10 @@
    Exibir mensagens de erro customizadas;
    Mostrar mensagens de erro apenas quando o campo for acessado;
    Habilitar/desabilitar o botão de salvar de acordo com o status do formulário.
+9. Implementando a paginação: Utilizar o HttpParams para enviar parâmetros na url;
+   Implementar paginação dos dados;
+   Criar um componente botão para carregar os pensamentos sob demanda;
+   Realizar a comunicação entre componentes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
