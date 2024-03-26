@@ -15,7 +15,7 @@ export class CriarPensamentoComponent implements OnInit {
   constructor(
     private service: PensamentoService,
     private router: Router,
-    private formBuilder: FormBuilder,
+    private formBuilder: FormBuilder
   ) { }
 
   ngOnInit(): void {
@@ -28,13 +28,13 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.required,
         Validators.minLength(3)
       ])],
-      modelo: ['modelo1', [Validators.required]],
+      modelo: ['modelo1']
     })
   }
 
   criarPensamento() {
     if(this.formulario.valid){
-      this.service.criar(this.formulario.value).subscribe(() =>{
+      this.service.criar(this.formulario.value).subscribe(() => {
         this.router.navigate(['/listarPensamento'])
       })
     }
@@ -45,7 +45,7 @@ export class CriarPensamentoComponent implements OnInit {
   }
 
   habilitarBotao(): string {
-    if(this.formulario.valid){
+    if(this.formulario.valid) {
       return 'botao'
     } else {
       return 'botao__desabilitado'
