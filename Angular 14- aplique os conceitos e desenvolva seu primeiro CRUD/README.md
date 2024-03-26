@@ -32,6 +32,11 @@
    Capturar parâmetros em rotas;
    Criar um CRUD.
 
+7. Formulários reativos: Criar um formulário reativo através da classe FormBuilder;
+   Associar o formulário criado no component ao template através da diretiva formGroup;
+   Utilizar a diretiva formControlName para associar os inputs do formulário;
+   Acessar os valores dos campos do formulário no template com o método get.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Development server

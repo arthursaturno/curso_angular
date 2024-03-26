@@ -1,6 +1,6 @@
 .acoes {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end
 }
 
 .botao-excluir {
@@ -18,7 +18,7 @@
 }
 
 .pensamento {
-  background-color: #f8f9fe;
+  background-color: #F8F9FE;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -37,11 +37,11 @@
 }
 
 .modelo2 {
-  box-shadow: 8px 8px 0px #6bd1ff;
+  box-shadow: 8px 8px 0px #6BD1FF;
 }
 
 .modelo3 {
-  box-shadow: 8px 8px 0px #84eec1;
+  box-shadow: 8px 8px 0px #84EEC1;
 }
 
 .pensamento-g {
