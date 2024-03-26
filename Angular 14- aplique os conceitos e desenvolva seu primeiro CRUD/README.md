@@ -37,11 +37,11 @@
    Utilizar a diretiva formControlName para associar os inputs do formulário;
    Acessar os valores dos campos do formulário no template com o método get.
 
-8.Implementar validações nos campos do formulário através da classe Validators;
-Identificar os tipos de erros que ocorreram nas validações;
-Exibir mensagens de erro customizadas;
-Mostrar mensagens de erro apenas quando o campo for acessado;
-Habilitar/desabilitar o botão de salvar de acordo com o status do formulário.
+8. Implementar validações nos campos do formulário através da classe Validators;
+   Identificar os tipos de erros que ocorreram nas validações;
+   Exibir mensagens de erro customizadas;
+   Mostrar mensagens de erro apenas quando o campo for acessado;
+   Habilitar/desabilitar o botão de salvar de acordo com o status do formulário.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
